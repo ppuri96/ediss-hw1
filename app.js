@@ -5,7 +5,8 @@ var session = require('express-session')
 var app = express(); 
 
 var con = mysql.createConnection({
-	host: 'localhost', 
+	host: 'ediss-hw1-db.cg4gso8l3psc.us-east-2.rds.amazonaws.com',
+	port: '3306',
 	user: 'root', 
 	password: '',
 	database: 'edisshw1'
